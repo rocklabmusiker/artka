@@ -1,3 +1,17 @@
 @import "mixins/base-mixins";
 @import "mixins/media-mixins";
 /* @import "sprites/png-sprite";  */
+
+.head {
+	
+	&__wrap {
+		background-image: url(../../images/head/head_back.jpg);
+		background-position: 50% 0;
+		-webkit-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+		height: 100vh;
+	}
+
+	
+}
